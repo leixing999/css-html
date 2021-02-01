@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+    p{
+        color: red;
+        font-size: 40px;
+        /****** font-family 字体族
+            serif 衬线字体
+            sans-serif 非衬线字体
+            monospace 等宽字体
+
+            font-family：可以指定多个字体，可以优选第一个字体，
+            如果没有选择下面的其他字体，依次类推
+         */
+        font-family: 'Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif';
+
+    }
+    li{
+        list-style: none;
+    }
+    /*li:before{*/
+    /*    content: '<i class="fas fa-star"></i>>';*/
+    /*}*/
+
+    /*.news-list{*/
+    /*    */
+    /*}*/
+
+    li:before{
+        content: '\f1b0';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: red;
+        margin-left: 10px;
+    }
+
+    .txtdiv{
+
+        width: 300px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    </style>
+    <link href="../common/font/fa/css/all.css" rel="stylesheet">
+</head>
+<body>
+
+  <i class="fas fa-bell"></i>
+  <i class="fas fa-bell-slash"></i>
+
+  <i class="fas fa-otter" style="font-size:80px;color: yellowgreen"></i>
+
+
+  <ul>
+      <li >
+          锄禾日当午
+      </li>
+      <li >
+          汗滴禾下土
+      </li>
+      <li>
+          谁知盘中餐1111
+      </li>
+      <li >
+          粒粒皆辛苦1111
+      </li>
+  </ul>
+
+
+    <div class="txtdiv">
+        处理多个插入符号的新操作(Alt+Shift+G)允许您快速地将插入符号放置在每一行的末尾，并在添加了所有插入符号后立即删除所选择的内容。        处理多个插入符号的新操作(Alt+Shift+G)允许您快速地将插入符号放置在每一行的末尾，并在添加了所有插入符号后立即删除所选择的内容。        处理多个插入符号的新操作(Alt+Shift+G)允许您快速地将插入符号放置在每一行的末尾，并在添加了所有插入符号后立即删除所选择的内容。
+
+
+
+
+    </div>
+
+</body>
+</html>

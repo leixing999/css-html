@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="../common/css/normalize.css" rel="stylesheet">
+    <style>
+
+        li{
+            list-style: none;
+        }
+
+        .img-list{
+            margin: 100px auto;
+            width: 585px;
+            height: 463px;
+            position: relative;
+        }
+        .img-list-item{
+            position: absolute;
+        }
+        .img-list li:nth-child(9){
+            z-index: 1;
+        }
+            /**设置导航的样式**/
+        .pointer {
+            position: absolute;
+            z-index: 9999;
+            left: 70px;
+            bottom: 20px;
+
+        }
+        .pointer a{
+            width: 10px;
+            height: 10px;
+            margin:0px 2px;
+            background-color: rgba(255,255,255,0.3);
+            border: 2px solid transparent;
+            background-clip: content-box;
+            float:left;
+            border-radius: 50%;
+
+        }
+        .pointer a.active,a:hover{
+            background-color: #fff;
+            border: 2px solid rgba(255,255,255,0.3);;
+        }
+
+    </style>
+</head>
+<body>
+
+    <ul class="img-list">
+        <li class="img-list-item"><a href="javascript:;"><img src="../jd/img/lunbo/1.png" alt=""></a></li>
+        <li class="img-list-item"><a href="javascript:;"><img src="../jd/img/lunbo/2.png" alt=""></a></li>
+        <li class="img-list-item"><a href="javascript:;"><img src="../jd/img/lunbo/3.png" alt=""></a></li>
+        <li class="img-list-item"><a href="javascript:;"><img src="../jd/img/lunbo/4.png" alt=""></a></li>
+        <li class="img-list-item"><a href="javascript:;"><img src="../jd/img/lunbo/5.png" alt=""></a></li>
+        <li class="img-list-item"><a href="javascript:;"><img src="../jd/img/lunbo/6.png" alt=""></a></li>
+        <li class="img-list-item"><a href="javascript:;"><img src="../jd/img/lunbo/7.png" alt=""></a></li>
+        <li class="img-list-item"><a href="javascript:;"><img src="../jd/img/lunbo/8.png" alt=""></a></li>
+        <li class="img-list-item"><a href="javascript:;"><img src="../jd/img/lunbo/9.jpg" alt=""></a></li>
+
+        <div class="pointer">
+            <a class="active" href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+
+        </div>
+    </ul>
+
+
+</body>
+</html>

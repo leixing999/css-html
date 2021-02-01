@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <div align="center"  class="red">hell0</div>
+    <p class="red">111</p>
+    <div>aaaaa</div>
+
+    <h2>zhongguo</h2>
+    <span>taizi</span>
+
+    <h2 class="left">1111111</h2>
+    <h2 class="right">222222</h2>
+
+
+    <div>
+        <p>
+          <span>nihao</span>
+          <h2>1111</h2>
+        </p>
+        <span>xingxiangze</span>
+
+        <div>
+            <span>2222</span>
+        </div>
+        <span>3333</span>
+
+    </div>
+
+
+    <style type="text/css">
+        .red{
+            color: blue;
+        }
+        p.red{
+            font-size: 20px;
+            text-align: center;
+            color: red;
+        }
+        *{
+            font-size: 10px;
+            text-align: center;
+        }
+
+        .left .right{
+            color:blue
+        }
+
+        /***选择子元素***/
+        /*div > span{*/
+        /*    color:red;*/
+        /*}*/
+        /****选择所有的后代元素***/
+        div span{
+            color: blue;
+        }
+
+        /***选择p元素的下一个兄弟元素（紧挨）***/
+        p + span{
+            color: orange;
+        }
+
+        /****选择P 元素下的所有兄弟span元素*****/
+        p ~ span{
+            font-size: 20px;
+            color: orange;
+        }
+
+
+    </style>
+
+
+</body>
+</html>

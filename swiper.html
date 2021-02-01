@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+    <meta charset="utf-8" />
+    <title>带数字的图片切换</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        li{
+            list-style:none;
+        }
+        #wrap{
+            width:1320px;
+            height:700px;
+            margin:30px auto;
+        }
+        #imgBox{
+            width:1300px;
+            height:630px;
+            margin:1px auto;
+            border:1px solid red;
+        }
+        #numBox{
+            width:500px;
+            height:70px;
+            margin-top:-70px;
+            margin-left:400px;
+            position:absolute;     /*让数字框浮动在图片层上*/
+            text-align:center;
+        }
+        .nums{
+            border:5px solid rgba(255,51,102,0.2);
+            border-radius:50% 50% 10% 10%;
+            width:90px;
+            height:60px;
+            float:left;
+            margin-right:20px;
+            background:rgba(255,0,0,0.4);
+            cursor:pointer;
+        }
+        .nums:hover{
+            background:rgba(255,0,102,0.7);
+        }
+        .imgLis{
+            position:absolute;
+            display:none;
+        }
+        .numSpan{
+            color:white;
+            font-size:30px;
+            margin-top:20px;
+            line-height:60px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+<div id="wrap">
+    <div id="imgBox">
+        <ul id="imgUl">
+            <li class="imgLis"><img src="images/4.jpg" width="1300px" height="630px"></li>
+            <li class="imgLis"><img src="images/3.jpg" width="1300px" height="630px"></li>
+            <li class="imgLis"><img src="images/2.jpg" width="1300px" height="630px"></li>
+            <li class="imgLis"><img src="images/1.jpg" width="1300px" height="630px"></li>
+            <ul>
+    </div>
+    <div id="numBox">
+        <div class="nums"  οnclick="cFunction('1')"><a class="numSpan">1</a></div>
+        <div class="nums"  οnclick="cFunction('2')"><a class="numSpan">2</a></div>
+        <div class="nums"  οnclick="cFunction('3')"><a class="numSpan">3</a></div>
+        <div class="nums"  οnclick="cFunction('4')"><a class="numSpan">4</a></div>
+    </div>
+</div>
+</body>
+
+
+<script  type="text/javascript">
+    window.οnlοad=function(){
+//轮播
+        var imgsLis=document.getElementsByClassName("imgLis");
+        var j=0;
+        var i;
+        var flag=0;
+        setInterval(function(){
+            if(flag>=0){
+                imgsLis[3].style.display="none";
+            }
+            if(j>0&&j<=imgsLis.length){
+                imgsLis[j-1].style.display="none";
+            }
+            if(j<imgsLis.length){
+                imgsLis[j].style.display="block";
+                j=j+1;
+                i=j;
+                if(i==4){
+                    flag+=1;
+                    j=0;
+                }
+            }
+        },2000);
+        for(var i=0;i<imgsLis.length;i++){
+            imgsLis[i].style.display="block";
+        }
+    }
+    function cFunction(str){
+        var i=parseInt(str);  //强制转换
+        var imgs=document.getElementsByClassName("imgLis");//获取图片集合
+        if(i==1){
+            imgs[3].style.display="none";
+            imgs[0].style.display="block";
+        }
+        else {
+            for(var j=0;(j<i-1 || j>i-1)&& j<imgs.length ;j++){  //
+                imgs[j].style.display="none";   //其余图片设为none
+            }
+            imgs[i-1].style.display="block";   //当前要展示的图片设为block
+        }
+    }
+</script>
+</html>

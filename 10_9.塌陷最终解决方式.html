@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        .wrapper{
+            border: 10px red solid;
+
+
+        }
+        .wrapper:after{
+            content: '';
+            display: block;
+            clear:both;
+
+        }
+        .wrapper-item{
+            height: 100px;
+            width: 100px;
+            background-color: yellowgreen;
+            float: left;
+        }
+        .wrapper-brother{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="wrapper-item"></div>
+</div>
+
+<div class="wrapper-brother">
+
+</div>
+
+</body>
+</html>

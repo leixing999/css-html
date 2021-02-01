@@ -1,0 +1,152 @@
+/* 主页index.html样式表 */
+/* 去掉导航条a标签下划线样式 */
+a{
+  text-decoration: none;
+  color:#333;
+}
+.topbar-wrapper{
+  /* 设置宽度全屏 */
+  width: 100%;
+  /* 设置高度 */
+  height: 40px;
+  line-height: 40px;
+  /* 设置背景色 */
+  background-color: #333;
+
+}
+/* 设置导航菜单字体大小和颜色 */
+.topbar a{
+  font-size: 12px;
+  color:#b0b0b0;
+  display: block;
+}
+/* 设置超链接移入效果 */
+.topbar a:hover{
+  color: #fff;
+}
+/* 设置超链接中间线 */
+.topbar .line{
+  font-size: 12px;
+  color: #424242;
+  margin: 0 8px;
+  margin-top: -1px;
+}
+/* 设置左侧导航浮动 */
+.service,.topbar li{
+  float:left
+}
+/* 设置App为相对定位 */
+.app{
+  position: relative;
+ }
+/* 设置悬浮三角的设置 */
+.app::after{
+  display: none;
+  content: '';
+  /* 设置绝对定位 */
+  position:absolute;
+  width: 0;
+  height: 0;
+  /* 设置四个角的方向的边框 */
+  border: 6px solid transparent;
+  /* 去掉上边边框 */
+  border-top: none;
+  /* 设置下边框的颜色 */
+  border-bottom-color: #fff;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
+/* 显示上三角 */
+.app:hover .qrcode,
+.app:hover::after{
+  display: block;
+  height: 148px;
+}
+
+/* 设置下载App的下拉 */
+.app .qrcode {
+  /* display: none; */
+  position: absolute;
+  left:-37px;
+  width: 124px;
+  height: 0;
+  overflow: hidden;
+  /* height: 148px; */
+  line-height: 1;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,.3);
+
+  /* 用于样式过度效果 */
+  transition: height 3s;
+
+  
+}
+
+/* 设置图片样式 */
+.qrcode img{
+  width: 90px;
+  /* height: 90px; */
+  vertical-align: middle;
+  margin: 17px;
+  margin-bottom: 10px;
+}
+
+.qrcode span{
+  color:rgba(51, 51, 143);
+  font-size: 14px;
+}
+/* 设置右侧导航浮动 */
+.shop-car,.user-info{
+  float: right;
+}
+.shop-car{
+  margin-left: 26px;
+  position: relative;
+  margin-bottom: none;
+  
+}
+/* 设置购物车移入背景和字体样式 */
+.shop-car:hover a{
+  background-color: #fff;
+  color:#ff6700;
+}
+
+.shop-car:hover .shop-car-info{
+  display: block;
+  height: 100px;
+  line-height: 100px;
+  visibility: visible;
+
+}
+/* 设置购物车标签宽度、背景色以及居中属性 */
+.shop-car a{
+  width: 120px;
+  background-color: #424242;
+  text-align: center;
+}
+/* 设置购物车图标距离 */
+.shop-car i{
+  margin-right: 2px;
+}
+
+.shop-car-info{
+  display: block;
+  visibility: hidden;
+  width: 320px;
+  height: 0;
+  line-height: 0px;
+  position: absolute;
+  right: 0;
+  border: 1px solid rgb(253, 253, 253);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  color:black;
+  text-align: center;
+  transition: height 0.2s;
+
+
+}

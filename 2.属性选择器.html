@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /******1.选择元素属性的*******/
+        p[title]{
+            color: orange;
+        }
+        /*******2.选择p元素属性值的*************/
+        p[title=abc]{
+           font-size: 20px;
+        }
+        *{
+            text-align: center;
+        }
+        /*******3.选择p元素中的title属性值以abc开头的**********/
+        p[title^=abc]{
+            background-color: red;
+        }
+        /*******4.选择p元素中的title属性值以abc结尾的**********/
+
+        p[title$=abc]{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+        <p title="111111">12222</p>
+        <p title="abc">3333</p>
+        <p title="abcd">顶顶顶顶顶顶顶</p>
+        <p title="dabc">顶顶顶111顶顶顶顶</p>
+        <p>33333</p>
+        <p>33333</p>
+
+</body>
+</html>

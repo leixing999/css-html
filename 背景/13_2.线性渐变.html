@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .box{
+            height: 500px;
+            width: 500px;
+            /*表示红色在开头黄色在结尾，中间是过度色 ，可以指定渐变方向*/
+            /*默认颜色是平均分配，也可指定渐变分配情况*/
+            /*background-image: linear-gradient(to left,red,yellowgreen);*/
+            /*background-image: linear-gradient(to right,red,yellowgreen);*/
+            /*background-image: linear-gradient(to top,red,yellowgreen);*/
+            /*background-image: linear-gradient(to bottom,red,yellowgreen);*/
+            /*background-image: linear-gradient(90deg,red,yellowgreen);*/
+            /*background-image: linear-gradient(to right,red 30px,yellowgreen 100px,blue,deeppink 300px);*/
+            /*background-image: linear-gradient(red 30px,yellowgreen 100px,blue,deeppink 300px);*/
+
+            /*可以平铺的线性渐变*/
+            background-image: repeating-linear-gradient(red ,yellow 100px);
+
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+    </div>
+</body>
+</html>
