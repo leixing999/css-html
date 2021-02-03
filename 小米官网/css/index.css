@@ -147,6 +147,111 @@ a{
   color:black;
   text-align: center;
   transition: height 0.2s;
+  z-index: 999;
 
 
 }
+
+/* 设置头部导航条容器 */
+.header-wrapper{
+  /* background-color: yellow; */
+  position: relative;
+
+}
+
+/* 设置header */
+.header{
+  height: 100px;
+  /* border: 1px solid red; */
+  /* background-color: red; */
+}
+/* 设置logo宽度和高度并开启相对定位
+   增加溢出效果
+*/
+.header .logo{
+  position: relative;
+  float: left;
+  margin-top: 22.5px;
+  width: 55px;
+  height: 55px;
+  overflow: hidden;
+  
+}
+/* 对logo下的超链接开启绝对定位，并且设置过度效果 */
+.header .logo a{
+  position: absolute;
+  display: block;
+  width: 55px;
+  height: 55px;
+  left: 0;
+  background-image: url('../img/mi-log.png');
+  background-position: center;
+  transition: left 0.3s;
+}
+/* 为home设置背景色并且设置left */
+.header .logo .home{
+  left:-55px;
+  background-image: url('../img/mi-log2.png');
+
+}
+/* 对mi增加过度效果 */
+.header .logo:hover .mi{
+  display: block;
+  left: 55px;
+}
+/* 对home增加过度效果 */
+.header .logo:hover .home{
+  display: block;
+  left: 0;
+}
+/* 设置中间导航条 */
+.header .nav-wrapper{
+  float:left;
+  margin-left: 7px;
+}
+
+/* 设置导航条 */
+.header .nav{
+  /* width: 850px; */
+  background-color: #bfa;
+  height: 100px;
+  line-height: 100px;
+  padding-left: 58px;
+  
+}
+/* 设置导航条全部默认为隐藏 */
+.nav .nav-all{
+  visibility: hidden;
+}
+
+
+/* 设置导航条的li */
+.nav-wrapper li{
+  float:left
+}
+/* 设置导航条字体以及宽度 */
+.nav-wrapper li a{
+  font-size: 16px;
+  margin-right:20px;
+}
+
+/* 设置悬浮到导航条字体颜色 */
+.nav-wrapper li:hover a{
+
+ color: rgb(255, 103, 0);
+
+}
+/* 默认设置导航条菜单子项全部为隐藏 */
+.nav .nav-all{
+  visibility: hidden;
+}
+.header-wrapper .goods-info{
+  height: 228px;
+  width: 100%;
+  background-color: red;
+  position: absolute;
+  left:0;
+  top:100px;
+  border-top: 1px solid rgb(224,224,224);
+}
+
