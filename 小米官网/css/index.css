@@ -84,7 +84,7 @@ a{
   /* 用于样式过度效果 */
   transition: height 3s;
 
-  z-index: 100;
+  z-index: 1000;
 
   
 }
@@ -165,6 +165,7 @@ a{
 /* 设置header */
 .header{
   height: 100px;
+  position: relative;
   z-index: 100;
   /* border: 1px solid red; */
   /* background-color: red; */
@@ -230,17 +231,19 @@ a{
 
 
 /* 设置导航条的li */
-.nav-wrapper li{
+.nav-wrapper .nav > li{
   float:left
 }
+
+
 /* 设置导航条字体以及宽度 */
-.nav-wrapper li a{
+.nav-wrapper .nav > li a{
   font-size: 16px;
   margin-right:20px;
 }
 
 /* 设置悬浮到导航条字体颜色 */
-.nav-wrapper li:hover a{
+.nav-wrapper .nav > li:not(:first-of-type):hover a{
 
  color: rgb(255, 103, 0);
 
@@ -249,6 +252,40 @@ a{
 /* 默认设置导航条菜单子项全部为隐藏 */
 .nav .nav-all{
   visibility: hidden;
+}
+
+
+/* 设置左侧导航条的样式 */
+.left-menu{
+  position: absolute;
+  width: 234px;
+  height: 420px;
+  background-color:rgba(0,0,0,.6);
+  left:0;
+  padding: 20px 0;
+
+}
+/* 设置左侧导航菜单子菜单样式 */
+ul .left-menu li a{
+  display: block;
+  line-height: 42px;
+  color:rgb(223, 223, 223);
+  padding-left: 25px;
+  margin-right: 0;
+}
+/* 设置图标行高和右飘 */
+.left-menu a i{
+  /* position: absolute; */
+  /* top:15px;
+  right: 20px; */
+  line-height: 42px;
+  float:right;
+
+
+}
+/* 设置左侧导航菜单悬浮菜单样式 */
+ul .left-menu li:hover{
+  background-color: rgb(255, 103, 0);
 }
 
 /* 设置点击导航条弹出层样式，并开启绝对定位相对于header-wrapper */
@@ -323,6 +360,17 @@ a{
   border: none;
 }
 
+/* 设置banner相对定位 */
+.banner{
+  position: relative;
+}
+/* 设置Li绝对定位 */
+.img-list li{
+ position: absolute;
 
-
-
+}
+/* 设置图片的外框bottom以及100%适应 */
+.banner img{
+  width:100%;
+  vertical-align: top;
+}
