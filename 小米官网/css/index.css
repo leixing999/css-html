@@ -435,3 +435,137 @@ ul .left-menu li:hover{
   background-position: -125px 0;
   right:0;
 }
+
+/* 设置工具服务为固定定位且宽度随着浏览器变动而变动 */
+.tool-service{
+/* 
+ height: 165px;
+ width: 20px; */
+ position:fixed;
+ right: 50%;
+ bottom: 300px;
+ margin-right: -634px;
+ z-index: 9999;
+}
+/* 设置li边框的样式和高度 */
+.tool-service li {
+  border: 1px solid rgb(245, 245, 245);
+  width: 18px;
+  height: 30px;
+  line-height: 30px;
+}
+/* 设置边框的大小和开启block */
+.tool-service li a{
+  display: block;
+  line-height: 15px;
+  width: 15px;
+  margin: 8px auto ;
+
+  /* background-color: red; */
+
+}
+.tool-service li:hover{
+
+}
+/* 设置图片的大小 */
+.tool-service li a img{
+  height: 15px;
+  width: 15px;
+}
+/* 设置广告条的高度和宽度并且距离上面14像素 */
+.ad{
+  height: 170px;
+  width: 1226px;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+/* 设置各个元素左漂移 */
+.ad .shortcut,
+.ad .ad-img,
+.ad li{
+  float: left;
+}
+
+/* 设置宽度和高度以及边框高度和宽度 */
+.ad .shortcut{
+  width:228px;
+  height: 170px;
+  background-color: #5f5750;
+  margin-right: 14px;
+  padding-top: 2px;
+  padding-left: 6px;
+}
+/* 设置上边框的线条 */
+.ad .shortcut li::before{
+  content:'';
+  position: absolute;
+  width: 64px;
+  height: 1px;
+  background-color:#665e57 ;
+  left: 0;
+  top: 0;
+  right:0;
+  margin: 0 auto ;
+
+}
+/* 设置有边框 */
+.ad .shortcut li::after{
+  content:'';
+  position: absolute;
+  height: 72px;
+  width: 1px;
+  background-color:#665e57 ;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto 0;
+
+
+}
+/* 开启相对定位 */
+.ad .shortcut li{
+  position: relative;
+}
+
+
+/* 设置字体颜色 */
+.ad .shortcut a{
+  display: block;
+  color: #cfccca;
+  height: 84px;
+  width: 76px;
+  text-align: center;
+  font-size: 12px;
+  overflow: hidden;
+
+}
+/* 设置为块元素并且设置高度和宽度 */
+.ad .shortcut i{
+  display: block;
+  
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.ad .shortcut a:hover{
+  color: white;
+}
+/* 设置每个图像宽度 和右边距*/
+.ad .ad-img li{
+  width: 316px;
+  margin-right: 15px;
+}
+/* 设置最后一个边框为0 */
+.ad .ad-img li:last-child{
+  margin: 0;
+}
+/* 设置图片100%宽度 */
+.ad .ad-img img{
+  width: 100%;
+  vertical-align: top;
+}
+
+
+
