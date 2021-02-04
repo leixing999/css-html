@@ -84,7 +84,7 @@ a{
   /* 用于样式过度效果 */
   transition: height 3s;
 
-  z-index: 1000;
+  z-index: 5000;
 
   
 }
@@ -152,7 +152,7 @@ a{
   text-align: center;
   transition: height 0.3s;
   background-color: white;
-  z-index: 101;
+  z-index: 4000;
 }
 
 /* 设置头部导航条容器 并且开启相对定位*/
@@ -166,7 +166,7 @@ a{
 .header{
   height: 100px;
   position: relative;
-  z-index: 100;
+  z-index: 2000;
   /* border: 1px solid red; */
   /* background-color: red; */
 }
@@ -363,14 +363,75 @@ ul .left-menu li:hover{
 /* 设置banner相对定位 */
 .banner{
   position: relative;
+  height: 460px;
 }
 /* 设置Li绝对定位 */
-.img-list li{
+.banner .img-list li{
  position: absolute;
 
 }
 /* 设置图片的外框bottom以及100%适应 */
 .banner img{
   width:100%;
-  vertical-align: top;
+}
+
+/* 设置点容器开绝对定位 */
+.pointer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 40px;
+  margin-bottom: 25px;
+
+}
+/* 设置具体点的位置和大小信息以及背景等 */
+ .pointer a{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgb(0,0,0,.4);
+  border:2px solid darkgrey;
+  box-shadow: 0 0 10px rgba(255,255,255,.4);
+  margin-left: 5px;
+  float: left;
+
+}
+/* 设置悬浮效果 */
+.pointer a:hover{
+  background-color: rgba(255,255,255,.4);
+  border:2px solid darkgrey;
+  box-shadow: 0 0 10px rgb(0,0,0,.4);
+}
+/* .prev-next{
+ 
+  background-color: red;
+  position: absolute;
+} */
+/* 为a标签开启绝对定位和设置高度以及宽度和背景色 */
+.prev-next a{
+  width: 41px;
+  height: 69px;
+  position: absolute; 
+  top:0;
+  bottom: 0;
+  margin: auto 0;
+  background-image: url('../img/icon-slides.png');
+
+}
+/* 设置悬浮改变图片位置 */
+.prev-next .prev:hover{
+  background-position: 0 0;
+}
+/* 默认prev图片位置 */
+.prev-next .prev{
+  left:234px;
+  background-position: -84px 0;
+}
+.prev-next .next:hover{
+  background-position: 125px 0;
+}
+/* next */
+.prev-next .next{
+  background-position: -125px 0;
+  right:0;
 }
