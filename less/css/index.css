@@ -1,0 +1,19 @@
+.box1,
+.box4 {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+}
+.box1 .box2 {
+  height: 400px;
+  width: 400px;
+  background-color: yellow;
+}
+.box1 .box2 .box3 {
+  height: 200px;
+  width: 400px;
+  background-color: blue;
+}
+.box4 {
+  color: yellow;
+}

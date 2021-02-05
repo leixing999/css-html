@@ -1,0 +1,23 @@
+// 增加样式的注释
+@bgColor:500px;
+//声明类
+@box3:box3;
+.box1{
+  height: @bgColor;
+  width: @bgColor;
+  background-color: red;
+  .box2{
+    height: 400px;
+    width: 400px;
+    background-color:yellow;
+    .@{box3}{
+      height: 200px;
+      width: $height+200px;
+      background-color: blue;
+    }
+  }
+}
+
+.box4:extend(.box1){
+  color:yellow;
+}

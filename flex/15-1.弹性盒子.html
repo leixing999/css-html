@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    ul {
+      width: 200px;
+      height: 200px;
+      border: 10px solid red;
+      display: flex;
+      /* 指定弹性元素的排列方式 */
+      flex-direction: column;
+      text-align: center;
+
+      /* 设置弹性元素是否自动换行（沿着辅轴换行） */
+      flex-wrap: wrap;
+
+      /* 如何分派主轴上的剩余空白
+      
+          flex-start元素 沿着主轴起边排列
+          flex-end 元素沿着主轴终边排列
+          center 元素居中排列
+      */
+      justify-content: center;
+
+
+    }
+
+    li {
+      width: 100px;
+      line-height: 100px;
+      background-color: blue;
+      /* 弹性元素生长的系数 ,会按照比例进行分派剩余空间*/
+      /* flex-grow: 2; */
+      flex-shrink: 0;
+
+    }
+
+    li:nth-child(1) {
+      background-color: yellow;
+      /* flex-grow: 0; */
+      /* flex-grow: 0; */
+    }
+
+    li:nth-child(2) {
+      background-color: red;
+      /* flex-grow: 0; */
+      /* flex-grow: 1; */
+    }
+
+    li:nth-child(3) {
+      background-color: green;
+      /* flex-grow: 2; */
+      /* flex-grow: 3; */
+    }
+
+
+
+    /* ul li {
+      float: left;
+    } */
+  </style>
+</head>
+
+<body>
+
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+</body>
+
+</html>
