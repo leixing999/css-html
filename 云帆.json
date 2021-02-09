@@ -1,0 +1,504 @@
+{
+  "games_download_info": {
+    "3": {
+      "fishgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fishgame_src.zip",
+        "size": "621481",
+        "md5": "c0b8ad558b30d7facc120f0ddbd4a62d",
+        "version": "1.0.3",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:37:37"
+      },
+      "fishgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fishgame_res.zip",
+        "size": "25286510",
+        "md5": "e5c007c6eadefa7d0579a07f05f09cbe",
+        "version": "1.0.2",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:37:37"
+      }
+    },
+    "7": {
+      "shgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/shgame_src.zip",
+        "size": "268180",
+        "md5": "3c22e6420f252a729a288fe16897145e",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:05:12"
+      },
+      "shgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/shgame_res.zip",
+        "size": "4707310",
+        "md5": "41b14b20976667591ec6104166656c03",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:05:12"
+      }
+    },
+    "11": {
+      "dzpkgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/dzpkgame_src.zip",
+        "size": "169668",
+        "md5": "56698f33b6f34a3d7a18f03240785d91",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:05:57"
+      },
+      "ddzgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/ddzgame_res.zip",
+        "size": "9024230",
+        "md5": "2491ef40f5fab7c51826ca1b805b6d0c",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:05:57"
+      }
+    },
+    "13": {
+      "dzpkgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/dzpkgame_src.zip",
+        "size": "169668",
+        "md5": "56698f33b6f34a3d7a18f03240785d91",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:10:33"
+      },
+      "ddzgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/ddzgame_res.zip",
+        "size": "9024230",
+        "md5": "2491ef40f5fab7c51826ca1b805b6d0c",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:10:33"
+      }
+    },
+    "17": {
+      "fishgame_qpby_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fishgame_qpby_src.zip",
+        "size": "1378120",
+        "md5": "ef20ed0cca0fa1d2abb72aabaac3aad0",
+        "version": "1.0.7",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:37:14"
+      },
+      "fishgame_qpby_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fishgame_qpby_res.zip",
+        "size": "32403817",
+        "md5": "ac7a568e5a637f1a7d8a317afc99bc68",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:37:14"
+      }
+    },
+    "19": {
+      "dfdcgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/dfdcgame_src.zip",
+        "size": "544960",
+        "md5": "a86fbfca410763173aa6da690c4a77b6",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:35:24"
+      },
+      "dfdcgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/dfdcgame_res.zip",
+        "size": "13652243",
+        "md5": "930ebb9a776080238ee51f4b33e21fc0",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:35:24"
+      }
+    },
+    "20": {
+      "firecracker_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/firecracker_src.zip",
+        "size": "145945",
+        "md5": "b1af39bf62bd1b241d5ce8f317e6af83",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:15:45"
+      },
+      "firecracker_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/firecracker_res.zip",
+        "size": "14619423",
+        "md5": "353d4d7413c148eeb959708f652730e1",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:15:45"
+      }
+    },
+    "45": {
+      "fivestars_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fivestars_src.zip",
+        "size": "286550",
+        "md5": "68c9696440b1bcc1b076209a78d7f3f7",
+        "version": "1.0.7",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:44:38"
+      },
+      "fivestars_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fivestars_res.zip",
+        "size": "8584930",
+        "md5": "46ffbf67c47ad8907f9a754345a33a78",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:44:38"
+      }
+    },
+    "46": {
+      "hooheyhow_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/hooheyhow_src.zip",
+        "size": "121583",
+        "md5": "303cd0e30e5ce15cd29f6b23d245afa1",
+        "version": "1.0.4",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:51:14"
+      },
+      "hooheyhow_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/hooheyhow_res.zip",
+        "size": "4696941",
+        "md5": "ae5e4d08b0f66befd89dec52b782240f",
+        "version": "1.0.2",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:51:14"
+      }
+    },
+    "21": {
+      "football_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/football_src.zip",
+        "size": "147863",
+        "md5": "641dab09c6600036a4a26c726e7c3366",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:17:43"
+      },
+      "football_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/football_res.zip",
+        "size": "37989675",
+        "md5": "f63a30443228d2dce26914a3810f89b7",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:17:43"
+      }
+    },
+    "22": {
+      "avalon_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/avalon_src.zip",
+        "size": "142645",
+        "md5": "f651349f45380a477503e5022cc5a351",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:42:14"
+      },
+      "avalon_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/avalon_res.zip",
+        "size": "60355482",
+        "md5": "ccef540b0823a94caf21716c8060bcbf",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:42:14"
+      }
+    },
+    "30": {
+      "qqgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/qqgame_src.zip",
+        "size": "190373",
+        "md5": "6261a284d613c0f89249c4136ba729ea",
+        "version": "1.0.4",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:54:45"
+      },
+      "qqgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/qqgame_res.zip",
+        "size": "7410804",
+        "md5": "0c7e415584bd5b42e3739507d4c5f9a4",
+        "version": "1.0.2",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:54:45"
+      }
+    },
+    "31": {
+      "sicbogame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/sicbogame_src.zip",
+        "size": "106149",
+        "md5": "45728355bc317d8833eeeccc17521aa8",
+        "version": "1.0.4",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:56:40"
+      },
+      "sicbogame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/sicbogame_res.zip",
+        "size": "3168723",
+        "md5": "d728cdbd128a2769aafd8ed61b7b551d",
+        "version": "1.0.2",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:56:40"
+      }
+    },
+    "32": {
+      "21game_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/21game_src.zip",
+        "size": "194337",
+        "md5": "c8b0df9dd8718751b6718ae71e4d8c62",
+        "version": "1.0.4",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:48:36"
+      },
+      "21game_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/21game_res.zip",
+        "size": "9078516",
+        "md5": "d9c3276f246b7c37268f6b9dab596837",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:48:36"
+      }
+    },
+    "80": {
+      "erbagang_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/erbagang_src.zip",
+        "size": "245115",
+        "md5": "0d3b43a84420acd2552a9265a20aeea7",
+        "version": "1.0.5",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:44:13"
+      },
+      "erbagang_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/erbagang_res.zip",
+        "size": "7605828",
+        "md5": "4b199f104c5af2e9a14ce3eee10d9d39",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:44:13"
+      }
+    },
+    "5": {
+      "ddzgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/ddzgame_src.zip",
+        "size": "347020",
+        "md5": "2f3206351f8489787d83f8fc5294edc2",
+        "version": "1.0.3",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:46:28"
+      },
+      "ddzgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/ddzgame_res.zip",
+        "size": "9033131",
+        "md5": "03ffbf5629b234567d2fca84bebcfa6b",
+        "version": "1.0.2",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:46:28"
+      }
+    },
+    "6": {
+      "gflower_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/gflower_src.zip",
+        "size": "327670",
+        "md5": "cb69ddaebffaab8ff3fa2745bbae30b3",
+        "version": "1.0.3",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:45:35"
+      },
+      "gflower_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/gflower_res.zip",
+        "size": "7378390",
+        "md5": "ebcbca944a59a24978d83f5bc32178b7",
+        "version": "1.0.2",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:45:35"
+      }
+    },
+    "8": {
+      "brnngame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/brnngame_src.zip",
+        "size": "237178",
+        "md5": "ed9231a9a1dd9dfb10210db51f4c974b",
+        "version": "1.0.3",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:47:27"
+      },
+      "brnngame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/brnngame_res.zip",
+        "size": "4676533",
+        "md5": "1af3bea7a3d130069c75209a9dfe3afb",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:47:27"
+      }
+    },
+    "12": {
+      "lhjgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/lhjgame_src.zip",
+        "size": "123074",
+        "md5": "10f460db75a7a0e91682ef1d705fce14",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:41:08"
+      },
+      "lhjgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/lhjgame_res.zip",
+        "size": "9490759",
+        "md5": "9bedc2c8603f746072031eb4dfa18323",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:41:08"
+      }
+    },
+    "14": {
+      "qznngame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/qznngame_src.zip",
+        "size": "213490",
+        "md5": "8152360ceed2c6369cee4486c36bff02",
+        "version": "1.0.2",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:55:36"
+      },
+      "qznngame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/qznngame_res.zip",
+        "size": "4158896",
+        "md5": "c7bc3a143e422657b95dbf3c4937b7f5",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:55:36"
+      }
+    },
+    "15": {
+      "fishgame_gtoad_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fishgame_gtoad_src.zip",
+        "size": "552131",
+        "md5": "4616e709267cef04ca6658cc76380687",
+        "version": "1.0.3",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:36:38"
+      },
+      "fishgame_gtoad_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fishgame_gtoad_res.zip",
+        "size": "21190489",
+        "md5": "4e85116522769523a6f52b224cd1ebbf",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:36:38"
+      }
+    },
+    "24": {
+      "jdnngame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/jdnngame_src.zip",
+        "size": "215081",
+        "md5": "db6923b42c2de3cceceb88ba8786f3b3",
+        "version": "1.0.2",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:52:31"
+      },
+      "jdnngame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/jdnngame_res.zip",
+        "size": "12035077",
+        "md5": "48d336cdbfadafc6884db129cea4e98e",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:52:31"
+      }
+    },
+    "26": {
+      "fourshgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fourshgame_src.zip",
+        "size": "190941",
+        "md5": "d939b709fe68de37659982292fd739f7",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:53:01"
+      },
+      "fourshgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fourshgame_res.zip",
+        "size": "6429803",
+        "md5": "815e83b525805bb8f286d913f5997539",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:53:01"
+      }
+    },
+    "27": {
+      "hhdzgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/hhdzgame_src.zip",
+        "size": "388986",
+        "md5": "24f3f9da54fa6628a61e86546322041b",
+        "version": "1.0.3",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:50:16"
+      },
+      "hhdzgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/hhdzgame_res.zip",
+        "size": "5302715",
+        "md5": "8094a2ca091ec69a79cfb49bda598b03",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:50:16"
+      }
+    },
+    "41": {
+      "lhdgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/lhdgame_src.zip",
+        "size": "472105",
+        "md5": "1f874acb7bf98b4e97cf83fde198b975",
+        "version": "1.0.5",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:53:48"
+      },
+      "lhdgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/lhdgame_res.zip",
+        "size": "8403058",
+        "md5": "8c2c7bcc177a219c924d01c2df761d4e",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:53:48"
+      }
+    },
+    "25": {
+      "13watergame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/13watergame_src.zip",
+        "size": "197294",
+        "md5": "730f727693a774372684ad79200fddbf",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:54:29"
+      },
+      "13watergame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/13watergame_res.zip",
+        "size": "5807439",
+        "md5": "2e5be0f850962c20fa6868395bbf6764",
+        "version": "1.0.0",
+        "plat_id": 0,
+        "updated_at": "2020-08-10 13:54:29"
+      }
+    },
+    "29": {
+      "bjlgame_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/bjlgame_src.zip",
+        "size": "317399",
+        "md5": "245fa2d6d2b063b47749d61c1c7c56c7",
+        "version": "1.0.4",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:48:08"
+      },
+      "bjlgame_res.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/bjlgame_res.zip",
+        "size": "11912935",
+        "md5": "5998cde785d2120dfc4267861f20c1d4",
+        "version": "1.0.1",
+        "plat_id": 0,
+        "updated_at": "2021-02-08 05:48:08"
+      }
+    },
+    "4": {
+      "shuihuzhuan_src.zip": {
+        "update_url": "https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/shuihuzhuan_src.zip",
+        "size": "334787",
+        "md5": "5cd2daa26bd16203d383575639a7d3a6",
+        "version": "1.0.2",
+        "plat_id": 0,
+        "updated_at": "2020-12-22 05:43:16"
+      },"shu
+5ba
+ihuzhuan_res.zip":{"update_url":"https: //yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/shuihuzhuan_res.zip","size":"18606954","md5":"8b082f4ea9306ec068c05dfbc1beed60","version":"1.0.1","plat_id":0,"updated_at":"2020-12-22 05:43:16"}},"60":{"fqzsgame_src.zip":{"update_url":"https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fqzsgame_src.zip","size":"337824","md5":"807860923ed55c06ae0f7851177fb465","version":"1.0.6","plat_id":0,"updated_at":"2021-02-08 06:06:29"},"fqzsgame_res.zip":{"update_url":"https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/fqzsgame_res.zip","size":"8672760","md5":"0db00ef8d428660a96b5abd993c06c72","version":"1.0.2","plat_id":0,"updated_at":"2021-02-08 06:06:29"}},"70":{"car_src.zip":{"update_url":"https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/car_src.zip","size":"310409","md5":"a36556d644c22241740103e08a981daf","version":"1.0.4","plat_id":0,"updated_at":"2021-02-08 05:46:54"},"car_res.zip":{"update_url":"https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/car_res.zip","size":"6110107","md5":"5c8853096c7b333c3ab22fc595425756","version":"1.0.1","plat_id":0,"updated_at":"2021-02-08 05:46:54"}},"16":{"deepfishgame_src.zip":{"update_url":"https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/pack/deepfishgame_src.zip","size":"571669","md5":"ca75d39d079d93d4ee7f4b06527ccce5","version":"1.0.3","plat_id":0,"updated_at":"2020-12-22 05:35:03"},"deepfishgame_res.zip":{"update_url":"https://yunfan1.oss-cn-hangzhou.a
+      5b4
+liyuncs.com/test/pack/deepfishgame_res.zip","size":"23161750","md5":"5e8cda73e70403cd0adfeffb6adc2ef5","version":"1.0.0","plat_id":0,"updated_at":"2020-12-22 05: 35: 03"}}},"hall_download_info":{"hall_update_res.zip":{"version":"1.0.9","update_url":"https: //yunfan1.oss-cn-hangzhou.aliyuncs.com/test/dt/hall_update_res.zip","size":"7039132","md5":"846f70483de1203d2b4634f76efa6bdf","updated_at":"2021-02-08 05:57:31","plat_id":0,"id":1},"hall_res.zip":{"version":"1.0.0","update_url":"https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/dt/hall_res.zip","size":"24493137","md5":"9df670a345952ff3b743e9bf3109c3b8","updated_at":"2020-08-10 13:01:56","plat_id":0,"id":2},"hall_src.zip":{"version":"1.1.9","update_url":"https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/dt/hall_src.zip","size":"1765481","md5":"0b0710d93eab9255d0e505bca2f27ccd","updated_at":"2021-02-08 05:57:41","plat_id":0,"id":3}},"frame_download_info":{"frame_res.zip":{"version":"1.0.1","update_url":"https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/kj/frame_res.zip","size":"12878888","md5":"d62292c8f05a1cb94d1b85cdfab8f56f","updated_at":"2020-09-04 11:32:25","plat_id":0,"id":4},"frame_src.zip":{"version":"1.0.8","update_url":"https://yunfan1.oss-cn-hangzhou.aliyuncs.com/test/kj/frame_src.zip","size":"534026","md5":"1dbf8e743aa067b387867fee03bef2f0","updated_at":"2021-02-08 05:57:59","plat_id":0,"id":5}},"client_info":{"enable_online":true,"server_urls":["http://b.sxkbl.cn/Web/GetClient
+      2260
+_Const","http: //c.021qyz.cn/Web/GetClient_Const","http://b.mudawa.cn/Web/GetClient_Const"],"platform_id":"0","is_must_update":true,"version":"1.0.0","encode_online":true,"update_url":"http://www.baidu.com/test/hall.zip","channel":"100","enable_online2":true},"hall_info":{"payconfig":[{"payname":"代理充值","Rebate":3,"paytype":"agentpay","payvalue":null,"paykind":0},{"payname":"网银快捷K","Rebate":2,"paytype":"unionpay","payvalue":[100,200,300,500,800,1000,2000],"paykind":3,"platform":"all","Tips":"请使用网银支付，勿重复转账"},{"payname":"网银快捷E","Rebate":2,"paytype":"unionpay","payvalue":[100,200,300,500,1000,1999,2999],"paykind":32,"platform":"all","Tips":"请使用网银支付，勿重复转账"},{"payname":"网银云闪付转卡","Rebate":2,"paytype":"unionpay","payvalue":[200,300,500,1000,2000,3000,5000,10000],"paykind":1,"platform":"all","Tips":"由于支付宝风控原因，请尽量使用微信云闪付网银支付"},{"payname":"微信G","Rebate":0,"paytype":"weixin","payvalue":[100],"paykind":12,"platform":"all","Tips":""}],"version":"1.0.0","config":{"sms_tips":"炅飞验证码已发送","exchange_money":{"alipay":5,"bank":2},"hall_Account_string":["登录游戏送3元","绑定手机号码送3-25元","24小时内升级VIP1送8元","24小时内首次完成提现送18元","24小时内投注3000+送28元","连续登陆三天晋升VIP3送160元","注册满七天投注满20万送480元","700"],"showwebtype":"NoTitleBar","Vip_OnceDay":10,"hall_top_btns_config":[{"btn_redPacket":true},{"btn_lottery":true},{"btn_promotion":false},{"btn_bind":true},{"btn_activity":false},{"btn_qiandao":false},{"btn_report_vip":false},{"btn_zhuanpan":false}],"hall_bottom_btns_config":[{"more_function_btn":true},{"btn_notice":true},{"bank_center_btn":true},{"btn_message":true},{"btn_feedback":true},{"btn_anima_exchange":true},{"setting_btn":false}],"hall_top_btns_config2":[{"btn_gd_qiandao":true},{"btn_gd_zhuanpan":true},{"btn_gd_report_vip":true},{"btn_gd_activity":true},{"btn_gd_redPacket":false},{"btn_gd_promotion":false},{"btn_gd_bind":false},{"btn_gd_lottery":false}],"Vip_Running_money":100,"Vip_score":1,"pay_webview_switch":{"alipay":false,"wxpay":false,"qqpay":true,"jdpay":true,"unionpay":false},"pcpay_config":{"alipay":{"recharge_max_per":100000,"recharge_min_per":1,"btn_values":[11,609,1207,1805,3000],"recharge_site_url":"http://8agg.com"},"recharge_free_per":1,"qqpay":{"recharge_max_per":100000,"recharge_min_per":1,"btn_values":[11,609,1207,1805,3000],"recharge_site_url":"http://8agg.com"},"type_order":["alipay","qqpay"]},"site_area":"香港","gametype":[5,6,15,27,32,3,24,41,16,29,12,8,60,14,19,17,70,4,80,31,25,11,7,26,13,20,22,21,45,46,30],"exchange_per_max":"20000","feedback_list_url":"","new_hall_top_btns_config":[{"btn_redPacket":true},{"btn_zhuanpan":true},{"btn_promotion":false},{"btn_bind":true},{"btn_activity":false},{"btn_qiandao":true},{"btn_report_vip":true},{"btn_lottery":true}],"QQ_jubao":"请联系在线客服","exchange_per_config":{"alipay_agent":{"min_money":50,"max_money":5000},"bank_agent":{"min_money":100,"max_money":50000},"alipay_online":{"min_money":100,"max_money":50000},"bank_online":{"min_money":100,"max_money":50000}},"later_open_games":[11,42,50,60],"become_agent_url":"","inviter_code":"true","recharge_btn_values":{"alipay":[50,100,200,300,500],"weixin":[50,100,200,300,500],"jdpay":[198,398,598,998,2999],"qqpay":[38,68,128,398,1998],"alipay_limit":[50,100,200,300,500],"unionpay":[50,100,200,300,500]},"vip_config":[50,300,700,1000,1500,2000],"wx_apply":"请联系在线客服","kefu_qq":"123456","qq_service_number":"请联系在线客服","kefu_wx":"","feedback_login_url":"","agents_info":[],"paihangbangurl":"","personal_center_btns":[{"account_bind_view_btn":true},{"person_info_view_btn":true},{"alipay_bind_view_btn":true},{"modify_password_view_btn":true},{"bank_bind_view_btn":false}],"exchange_multiple":"50","template":"default","exchange_btns_order":["enter_bind_alipay_btn","enter_bind_bank_btn"],"pay_url":{"ios_create_order":"http://c.021qyz.cn/api/server/createpayorder","ios_query_order":"http://c.021qyz.cn/api/server/queryorder","web_create_order":"http://c.021qyz.cn/api/server/createpayorder","web_query_order":"http://c.021qyz.cn/api/server/queryorder"},"potato_login_switch":"false","xingyunbangurl":"","complain_url":"http://c.021qyz.cn/api/server/getcomplain","gold_to_money_ratio":"100","custom_service_url":"https://message.huayanyilaw.cn/addons/kefu/index/im","activelist":[{"activeName":"开户有礼","layerName":"account_Layout","isDown":false},{"activeName":"每日福利","layerName":"welfare_Layout","isDown":false},{"activeName":"充值福利","layerName":"welfare_mission","isDown":false},{"activeName":"充值返利","layerName":"welfare_rebate","isDown":false},{"activeName":"救济金","layerName":"welfare_alms","isDown":false}],"normal_recharge_config":{"alipay":{"recharge_min_per":1,"recharge_max_per":100000},"wxpay":{"recharge_min_per":1,"recharge_max_per":100000},"jdpay":{"recharge_min_per":1,"recharge_max_per":100000},"qqpay":{"recharge_min_per":1,"recharge_max_per":100000},"unionpay":{"recharge_min_per":1,"recharge_max_per":100000}},"hall_game_status":{"5":1,"6":1,"4":0,"15":1,"60":0,"41":1,"70":1,"16":1},"max_recharge_per":{"alipay":9999,"weixin":499,"qqpay":7999,"jdpay":4499,"unionpay":49999},"agents_zhaoshang":{"qq":[],"weixin":[]},"open_promotion_info":{"second":259200,"switch":false},"recharge_interval":2,"recharge_order":["btn_dlcz","btn_zfb","btn_zfb_limit","btn_wx","btn_dlzs"],"feedback_create_url":"","hall_recommnd_games":{"order":[6,24,14]},"pay_fail_record_url":"","qq_lottery_url":"http://www.77tj.pro/Home/tencent/DataHome","dotpay_config":{"充值卡":{"易充纵游卿":[{"OptionTypesUnpack":[""],"Name":"易充纵游卿","NeedNo":true,"CardMainType":"充值卡","CardSubType":"易充纵游卿","Desciption":"易充纵游卿","NeedPwd":true,"NeedMoney":true,"ValuesUnpack":[10,100,300,500,1000,3000,5000,10000]}]}},"site_home_url":"http://www.720ZJ.xyz","save_home_url":"http://www.23478.vip/xiufu.html","exchange_min_remain_money":"6","bank_list":{"special":{"CIB":"兴业银行","ABC":"中国农业银行","CEB":"中国光大银行","PSBC":"中国邮政银行","HXB":"华夏银行","CMBC":"中国民生银行","CITIC":"中信银行","CMB":"招商银行","COMM":"交通银衿","ICBC":"中国工商银行","SZPAB":"平安银行","BOC":"中国银行","SPDB":"浦发银行","CCB":"中国建设银行"},"normal":{"CSCB":"长沙银行","BCCB":"北京银行","BJRCB":"北京农商银行","SHRCB":"上海农商银行","CZCB":"浙江稠州商业银行","GNXS":"广州市农信社","URCB":"杭州联合银行","BOS":"上海银行","HKBCHINA":"汉口银行","GZCB":"广州市商业银衿","NJCB":"南京银行","HCCB":"杭州银行","CYB":"集友银行","GDB":"广发银行","NBCB":"宁波银行","CZB":"浙商银行","WZCB":"温州银行","CBHB":"渤海银行"}},"recharge_types":{"dotpay":true,"yl":true,"weixin":true,"jdpay":true,"androidpay":false,"pcpay":false,"zfb_limit":true,"qqzf":true,"dlcz":true,"dlzs":false,"transferpay":false,"zfb":true,"iospay":false},"hall_ui_btns_config":[{"btn_account":true},{"bank_center_btn":true},{"btn_exchange":true},{"btn_feedback":true},{"btn_message":true},{"btn_notice":true},{"btn_custom_service":true},{"btn_promotion":false},{"setting_btn":true}],"need_hide_games":{"6":{"version":1,"hide_sec":0}},"hall_ui_other_btns_config":{"more_game_btn":true,"btn_kaifu":true,"btn_caichi":false,"btn_report_vip":true,"more_game_back_btn":true,"btn_redPacket":true,"LotteryButton":true},"huanxin_config":{"appkey":"1430200213061448#kefuchannelapp77887","kefuchannelimid":"kefuchannelimid_047222","tenantId":"2","online_kefu":"24小时为您服务"},"weixin":"asdsad","active_data":{"daily_welfare_recharge":100,"daily_welfare_rebate":100,"daily_welfare_addup":2000,"recharge_total":[1000,2000,5000,10000,15000,30000,40000,50000],"running_water":[2000,4000,10000,20000,30000,60000,80000,100000],"award":[30,40,100,200,200,300,500,1530]},"active_register":{"min_gold":3,"max_gold":20},"trun_award_silver":[99,5,10,13,15,23,20,166,25,55],"trun_award_gold":[288,20,30,40,50,588,70,80,90,888],"trun_award_diamond":[88,188,288,588,688,888,1088,1288,1688,1888],"Amount_Water":0.005,"trun_score_silver":100,"trun_score_gold":300,"promotion_request_url":"","trun_score_diamond":500,"Level_Reward":[1500,3000,5000,10000,20000,40000],"Weeks_Reward":[500,1000,2000,5000,10000,20000],"Month_Reward":[2000,5000,10000,20000,50000,100000],"game_share_url":"http://www.fenxiangdiz.com"},"addr":["139.196.19.1#7795","139.196.19.1#7796"],"backup_server_urls":["http://b.sxkbl.cn/api/server/get_client_const","http://c.021qyz.cn/api/server/get_client_const","http://b.mudawa.cn/api/server/get_client_const"]}}
+      0
