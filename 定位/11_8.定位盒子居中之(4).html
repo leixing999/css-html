@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .box1 {
+      height: 400px;
+      width: 1000px;
+      background-color: red;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    /*table-cell、vertical-align、text-align组合使用*/
+    /*子div只能不能是块状元素，否则只能垂直居中，无法水平居中*/
+    .box2 {
+      height: 100px;
+      width: 100px;
+      background-color: green;
+      display: inline-block;
+
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box1">
+    <div class="box2"></div>
+  </div>
+</body>
+
+</html>
